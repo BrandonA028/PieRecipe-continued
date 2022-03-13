@@ -1,0 +1,60 @@
+/*
+Brandon Arendas - COSC 365
+Additional features: 1. Pie bullet points 2. Repeating background image
+*/
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #404040;
+    font-size: 11pt;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-image: url(images/silverware.jpg);
+  }
+  
+  h1, h2, h3, h4, h5 {
+    background-color: #F0F0F0;
+    color: #A4A400;
+    text-decoration: underline;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  h2, h3, h4, h5 {
+    text-align: left;
+    font-size: 18px;
+  }
+
+  h6{
+    color:#A4A400;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+  }
+
+  ul {
+    list-style-image: url(images/pie_icon.gif);
+  }
+  
+  #comment1, #comment2 {
+    font-style: italic;
+    background-color: #ffffc8;
+    margin-left: 2em;
+  }
+  
+  a {
+    color: #A4A400;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+  }
+
+ 
+
